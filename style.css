@@ -1,0 +1,25 @@
+.back-ground{
+    background-image: url('images/netflix-bg-img.jpg');
+    /* background-position:center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    opacity: 0.8;
+}
+.text-danger{
+    color: red!important;
+}
+.btn-danger{
+    background-color: red !important;
+    border-radius: 10%;
+}
+.mx-5{
+    margin: 20px 200px !important;
+}
+.get-email{
+    display: flex;
+    justify-content: center;
+}
+.container-margin{
+    margin: 200px;
+}
