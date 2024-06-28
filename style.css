@@ -1,25 +1,105 @@
-.back-ground{
-    background-image: url('images/netflix-bg-img.jpg');
-    /* background-position:center; */
+body{
+    background-color: black;
+    color: white;
+}
+.back-ground-img{
+    background-image:linear-gradient(to top, rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("images/netflix-bg-img.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
-    opacity: 0.8;
+    position: relative;
 }
 .text-danger{
     color: red!important;
 }
 .btn-danger{
     background-color: red !important;
-    border-radius: 10%;
-}
-.mx-5{
-    margin: 20px 200px !important;
 }
 .get-email{
     display: flex;
     justify-content: center;
 }
 .container-margin{
-    margin: 200px;
+    margin: 200px 100px;
+}
+.email-input-padding{
+    width: 50vh;
+    padding: 15px 10px;
+}
+.btn-padding{
+    padding: 10px 30px;
+}
+.divider-styling{
+    width:100%;
+    height: 10px;
+    left: 0px;
+    bottom: 0px;
+    background-color:lightslategrey; 
+}
+.divider-1{
+    position: absolute;
+}
+.box-marg-padd{
+    margin: 70px 0px ;
+    padding-left: 50px;
+}
+.img-container{
+    position: relative;
+}
+.heading-style{
+    font-size: 50px;
+    font-weight: 900 !important;
+    margin-top: 100px;
+}
+.section2-video{
+    position: absolute;
+    width: 69%;
+    top:80px;
+    right: 85px;
+}
+.gif-container{
+    display: flex;
+    position: absolute;
+    background-color: black;
+    padding: 10px 80px 10px 10px;
+    bottom: 25px;
+    left: 115px;
+}
+.movie-container{
+    margin-right: -60px;
+}
+.download-text{
+    font-size: 13px;
+}
+.giff{
+    position: absolute;
+    left: 230px;
+}
+.section4-video{
+    position: absolute;
+    width: 60%;
+    top:40px;
+    right: 110px;
+}
+.accordion-item{
+    background-color:slategray;
+    border:none;
+}
+.acc-style{
+    background-color: slategray;
+    color: white;
+    margin: 20px 0px;
+    padding: 20px;
+    font-size: 25px;
+}
+.info-list{
+    list-style-type: none;
+}
+.info-text{
+    color:white;
+    list-style-type: square;
+    /* border: 1px solid red; */
+}
+.info-text:hover{
+    color:white;
 }
