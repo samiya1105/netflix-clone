@@ -25,9 +25,11 @@ body{
     font-weight: 900;
 }
 .email-input-padding{
+    /* background-color: rgba(22, 22, 22, 0.7); */
     width: 50vh;
     padding: 15px 10px;
 }
+
 .btn-padding{
     padding: 10px 30px;
 }
@@ -39,8 +41,7 @@ body{
     background-color:rgb(45,45,45); 
 }
 .box-marg-padd{
-    margin: 70px 0px ;
-    padding-left: 50px;
+    margin: 70px 30px ;
 }
 .img-container{
     position: relative;
@@ -57,27 +58,22 @@ body{
     position: absolute;
     width: 69%;
     top:80px;
-    right: 85px;
+    right: 83px;
     z-index: -1;
 }
 .gif-container{
-    display: flex;
-    position: absolute;
     background-color: black;
-    padding: 10px 80px 10px 10px;
-    bottom: 25px;
-    left: 115px;
-}
-.movie-container{
-    margin-right: -60px;
+    height:30%;
+    width:60%;
+    left:105px;
+    bottom:30px;
 }
 .download-text{
     font-size: 13px;
 }
-.giff{
-    position: absolute;
-    left: 250px;
-}
+ .gif-img{
+    width: 50%;
+ }
 .section4-video{
     position: absolute;
     width: 60%;
@@ -85,27 +81,83 @@ body{
     right: 110px;
     z-index: -1;
 }
-/* @media only screen and (max-width:768px){
-    body{
-        overflow: hidden;
+@media only screen and (max-width:768px){
+    .bg-head-text{
+        text-align: center;
+        font-size: 30px;
     }
     .get-email{
-        display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .email-label-text{
+        padding: 0px 50px;
+        font-weight: 500;
     }
     .box-marg-padd{
-    margin: 70px 10px ;
-    padding: 10px;
+        margin-top: 0px;
+        /* padding: 50px; */
     }
     .heading-style{
         font-size: 30px;
-        font-weight: 900 !important;
         text-align: center;
-        margin-top: 100px;    
-        border: 2px solid blue;
     }
-    .fs-4{
-        font-size: 5px;
+    .data-style{
+        font-size: 15px !important;
+        font-weight: 400;
+        text-align: center;
     }
-} */
+    .section2-video{
+        top:40px;
+        right: 50px;
+    }
+    /* .gif-container{
+        height:30%;
+        width:60%;
+        left:60px;
+        bottom:20px;
+    }
+    .movie-name{
+        font-size: 10px !important;
+    }
+    .download-text{
+        font-size: 8px;
+    }
+    .gif-img{
+        width: 20%;
+     } */
+     .section4-video{
+        top:20px;
+        right: 60px;
+    }
+    h3{
+        font-size: 19px;
+    }
+    .link-size{
+        font-size: 12px;
+        font-weight: 100;
+    }
+}
+@media only screen and (min-device-width:768px)and (max-device-width: 1024px){
+    .bg-head-text{
+        /* text-align: center; */
+        font-size: 40px;
+    }
+    .email-input-padding{
+        width: 25vh;
+        padding: 15px 10px;
+    }
+    .heading-style{
+        font-size: 45px;
+        margin-top: 60px;
+    }
+    .section2-video{
+        top:65px;
+        right: 65px;
+    }
+    .section4-video{
+        top:20px;
+        right: 90px;
+    }
+}
+
     
