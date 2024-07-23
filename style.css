@@ -139,7 +139,6 @@ body{
 }
 @media only screen and (min-device-width:768px)and (max-device-width: 1024px){
     .bg-head-text{
-        /* text-align: center; */
         font-size: 40px;
     }
     .email-input-padding{
